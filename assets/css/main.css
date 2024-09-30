@@ -1462,6 +1462,65 @@ header {
 }
 /* sude end */
 
+/* sude start */
+.careers__hero__container {
+  background: url(../images/careersbgmobile.png) bottom, url(../images/careersbgmobile2.png) bottom;
+  background-size: cover;
+  padding-top: 0;
+  padding-bottom: 40px;
+}
+.header--black-theme {
+  background-color: transparent;
+  border-bottom: 1px solid var(--footer-input-border);
+}
+
+.header--black-theme .header__nav ul li a {
+  color: var(--white);
+}
+
+.header--black-theme .header__hamburger-menu a i {
+  color: var(--white);
+}
+
+.careers__hero {
+  margin-top: 32px;
+}
+
+.careers__hero h1 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: var(--dark-white);
+  margin-bottom: 16px;
+}
+
+.careers__hero p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: center;
+  color: var(--dark-white);
+  margin-bottom: 32px;
+}
+
+.careers__hero__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-products--careers .feature-products__details__content p:first-child {
+  margin-top: 0;
+}
+
+.feature-products--careers img {
+  margin-top: 32px;
+}
+/* sude end */
+
 @media screen and (max-width: 767.98px) {
   .btn:not(.btn--inline) {
 		width: 100%;
@@ -1814,6 +1873,29 @@ header {
     font-weight: 500;
   }
   /* sude end */
+  /* sude start */
+  .careers__hero__container {
+    background: url(../images/careersbgtablet.png) bottom, url(../images/careersbgtablet2.png) bottom;
+    background-size: cover;
+    padding-bottom: 88px;
+  }
+  .careers__hero {
+    margin-top: 48px;
+  }
+  .careers__hero h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.01em;
+    margin-bottom: 24px;
+  }
+  .careers__hero p {
+    margin-bottom: 48px;
+  }
+  .feature-products--careers img {
+    margin-top: 48px;
+  }
+  /* sude end */
 }
 
 @media screen and (min-width: 1280px) {
@@ -2124,6 +2206,29 @@ header {
   }
   .footer--pricing__nav a p {
     font-weight: 600;
+  }
+  /* sude end */
+  /* sude start */
+  .careers__hero__container {
+    background: url(../images/careersbgdesktop.png) bottom, url(../images/careersbgdesktop2.png) bottom;
+    background-size: cover;
+    padding-bottom: 92px;
+  }
+  .careers__hero {
+    margin-top: 80px;
+    width: 630px;
+  }
+  .feature-products--careers img {
+    margin-top: 0;
+  }
+  .feature-products--careers .feature-products__details {
+    gap: 80px;
+  }
+  .feature-products--careers .feature-products__details .feature-products__details__content {
+    width: 516px;
+  }
+  .feature-products--careers-reverse .feature-products__details  {
+    gap: 140px;
   }
   /* sude end */
 }
