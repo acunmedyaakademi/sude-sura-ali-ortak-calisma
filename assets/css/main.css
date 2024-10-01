@@ -1427,6 +1427,106 @@ header {
   margin-bottom: 32px;
 }
 /* sura end */
+/* ALİ START */
+.feature-list{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 40px;
+}
+.grid-list img{
+  margin-bottom: 16px;
+}
+.grid-list h4{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: var(--text-color);
+  margin-bottom: 16px;
+}
+.grid-list p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: var(--gray);
+}
+.product-description{
+  margin-bottom: 32px;
+}
+.product-description h3{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  text-align: center; 
+  color: var(--text-color);
+  margin-bottom: 12px;
+}
+.product-description p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: center; 
+  color: var(--text-color); 
+}
+.transaction-title{
+  margin-bottom: 32px;
+}
+.transaction-title span{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: var(--blue);
+  margin-bottom: 8px;  
+}
+.transaction-title h2{
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: var(--text-color);
+  margin-bottom: 16px;
+}
+.transaction-title p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  color: var(--gray);
+  margin-bottom: 32px;
+}
+.transaction-title a{
+  padding: 12px 18px 12px 18px;
+  box-shadow: 0px 1px 2px 0px #1018280A;
+  border-radius: 6px;
+  background-color: var(--blue);
+  color: var(--white);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+}
+.transaction-title a>i{
+  margin-left: 6px;
+}
+.transaction img{
+  width: 100%;
+}
+.transaction-img-tablet{
+  display: none;
+}
+.transaction-img-desktop{
+  display: none;
+}
+
+/* ALİ END */
 /* sude start */
 .customer-reviews {
   background-color: var(--bg-gray);
@@ -1734,8 +1834,8 @@ header {
   margin-bottom: 16px;
 }
 
-/* sude end */
 
+/* sude end */
 
 @media screen and (max-width: 767.98px) {
   .btn:not(.btn--inline) {
@@ -2067,6 +2167,67 @@ header {
     grid-template-columns: repeat(2, 1fr);
   }
   /* sura end */
+  /* ALİ START */
+  .feature-list{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 48px;
+    column-gap: 32px;
+  }
+  .feature-list .grid-list:nth-child(3){
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+  .grid-list img{
+    margin-bottom: 20px;
+  }
+  .grid-list h4{
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    margin-bottom: 12px;
+  }
+  .product-description{
+    margin-bottom: 40px;
+  }
+  .product-description h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: center; 
+    color: var(--text-color);
+    margin-bottom: 12px;
+  }
+  .product-description p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: center; 
+    color: var(--text-color); 
+  }
+  .transaction-title{
+    margin-bottom: 48px;
+  }
+  .transaction-title h2{
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -1%;
+  }
+  .transaction-title p{
+    margin-bottom: 40px;
+  }
+  .transaction img{
+    width: 100%;
+  }
+  .transaction-img-tablet{
+    display: flex;
+  }
+  .transaction-img-mobile{
+    display: none;
+  }
+  /* ALİ END */
   /* sude start */
   .customer-reviews__grid-container {
     display: grid;
@@ -2462,6 +2623,60 @@ header {
     grid-template-columns: repeat(3, 1fr);
   }
   /* sura end */
+   /* ALİ START */
+   .feature-list{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 64px;
+    column-gap: 32px;
+  }
+  .grid-list h4{
+    letter-spacing: -1%;
+  }
+  .grid-list p{
+    letter-spacing: -0.1px;
+  }
+  .product-description{
+    margin-bottom: 64px;
+    padding-inline: 240px;
+  }
+  .product-description h3{
+    letter-spacing: -2%;
+    margin-bottom: 16px;
+  }
+  .product-description p{
+    letter-spacing: -0.1px;
+  }
+  .transaction{
+    display: flex;
+    align-items: center;
+    padding-inline: 32px;
+    gap: 140px;
+  }
+  .transaction-title{
+    margin-bottom: 0px;
+  }
+  .transaction-title span{
+    letter-spacing: -0.1px;
+  }
+  .transaction-title h2{
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -1%;
+  }
+  .transaction-title p{
+    letter-spacing: -0.1px;
+  }
+  .transaction-img-mobile{
+    display: none;
+  }
+  .transaction-img-tablet{
+    display: none;
+  }
+  .transaction-img-desktop{
+    display: flex;
+  }
+  /* ALİ END */
   /* sude start */
   .customer-reviews__grid-container {
     margin-top: 64px;
