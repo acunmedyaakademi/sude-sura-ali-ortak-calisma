@@ -2497,4 +2497,10 @@ header {
   /* sude end */
 }
 
+.deneme {
+  color: var(--text-color);
+  background-color: var(--bg-black);
+  font-size: 24px;
+  margin-top: 32px;
+}
 
