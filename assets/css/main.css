@@ -2503,4 +2503,9 @@ header {
   font-size: 24px;
   margin-top: 32px;
 }
-
+.deneme2 {
+  background-color: var(--blue);
+  font-size: 48px;
+  margin-bottom: 24px;
+  color: var(--white);
+}
