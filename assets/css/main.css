@@ -1688,6 +1688,71 @@ header {
   color: var(--white);
 }
 /* sude end */
+/* sude start */
+.faq--help .faq__table {
+  position: relative;
+}
+.faq--help .faq__table .faq__table__item--first {
+  height: 92px;
+}
+.faq--help .faq__table__right span{
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  padding: 4px 12px;
+}
+.integrations__grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.integrations__grid-item {
+  border: 1px solid var(--light-gray-border);
+  border-radius: 5px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.integrations__grid-item span {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--blue);
+  border-radius: 100%;
+  margin-bottom: 8px;
+}
+
+.integrations__grid-item span i {
+  font-size: 26px;
+  color: var(--white);
+}
+
+.integrations__grid-item h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.integrations__grid-item p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: center;
+  color: var(--gray);
+}
+/* sude end */
 
 @media screen and (max-width: 767.98px) {
   .btn:not(.btn--inline) {
@@ -2121,7 +2186,27 @@ header {
     font-weight: 500;
   }
   /* sude end */
-  
+  /* sude start */
+  .integrations__grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+  }
+  .integrations__grid-item--message {
+    display: none;
+  }
+  .integrations__grid-item {
+    padding: 32px;
+    gap: 16px;
+  }
+  .integrations__grid-item span {
+    margin-bottom: 0;
+  }
+  .integrations__grid-item h3 {
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+  }
+  /* sude end */
 }
 
 
@@ -2493,6 +2578,30 @@ header {
   }
   .footer--pricing__nav a p {
     font-weight: 600;
+  }
+  /* sude end */
+   /* sude start */
+   .faq--help .faq__table__right span{
+    right: 64px;
+  }
+  .faq--help .faq__table{
+    margin-top: 0;
+  }
+  .faq--help:first-child {
+    padding-bottom: 0;
+  }
+   .integrations__grid-container {
+    grid-template-columns: repeat(3, 1fr);
+    padding-inline: 32px;
+    margin-top: 64px;
+  }
+  .integrations__grid-item--message {
+    display: flex;
+  }
+  .integrations__grid-item h3 {
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.01em;
   }
   /* sude end */
 }
