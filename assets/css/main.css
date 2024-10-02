@@ -1640,6 +1640,151 @@ gap: 40px;
 	padding-left: 16px;
 	padding-right: 16px;
 }
+.universe-container {
+  width: 375px;
+}
+
+.starlight-header {
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+  border-bottom: 1px solid #EAEBF0;
+  align-items: center;
+}
+
+.cosmic-navigation, .login-gateway {
+  display: none;
+}
+
+.galactic-logo img {
+  display: block;
+}
+
+.stellar-hero {
+  text-align: center;
+  padding: 32px 16px 40px;
+}
+
+.stellar-hero h3 {
+  color: #437EF7;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.1em;
+  margin-bottom: 32px;
+}
+
+.stellar-hero h1 {
+  color: #272D37;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  margin-bottom: 16px;
+}
+
+.stellar-hero p {
+  color: #5F6D7E;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.1em;
+}
+.universe-container {
+  width: 375px;
+  height: 320px;
+  background-color: rgba(248, 249, 251, 1);
+}
+.cosmic-banner{
+  width: 375px;
+height: 1748px;
+padding: 32px 16px 32px 16px;
+gap: 24px;
+background-color: rgba(255, 255, 255, 1);
+}
+.responsive-img {
+  display: none;
+}
+.mobile {
+  display: block;
+}
+.box1{
+  width: 343px;
+height: 397px;
+gap: 24px;
+border-radius: 5px 0px 0px 0px;
+}
+.box1 img{
+  width: 343px;
+height: 185px;
+border-radius: 10px 0px 0px 0px;
+}
+.box1 h3 {
+  width: 343px;
+  height: 28px;
+font-size: 20px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: -0.02em;
+text-align: left;
+color: rgba(39, 45, 55, 1);
+margin: 24px 0px 4px;
+br {
+  display: none;
+} 
+}
+.responsive-h3 {
+  display: none; 
+}
+
+.box1 p {
+  width: 343px;
+  height: 120px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;    
+  color: rgba(95, 109, 126, 1);
+  margin-bottom: 16px;
+  br {
+    display: none;
+  }  
+}
+.star-mobile{
+  display: block;
+}
+.star-tablet{
+  display: none;
+}
+.star-desktop{
+  display: none;
+}
+.starr-mobile{
+  display: block;
+}
+.starr-tablet{
+  display: none;
+}
+.starr-desktop{
+  display: none;
+}
+.starrr-mobile{
+  display: block;
+}
+.starrr-tablet{
+  display: none;
+}
+.starrr-desktop{
+  display: none;
+}
+.star_box{
+  width: 343px;
+gap: 24px;
+border-radius: 5px 0px 0px 0px;
+}
+
+
 
 @media screen and (max-width: 767.98px) {
   .btn:not(.btn--inline) {
@@ -2043,6 +2188,167 @@ gap: 40px;
   border-radius: 5px 0px 0px 0px;
   margin-left: 22px;
 }
+.universe-container {
+  width: 100%;
+  padding-inline: 32px;
+}
+
+.stellar-hero {
+  padding: 48px 16px 88px;
+}
+
+.stellar-hero h3 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.1em;
+  margin-bottom: 0;
+}
+
+.stellar-hero h1 {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: -0.01em;
+  margin-bottom: 24px;
+}
+
+.stellar-hero p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.1em;
+}
+.universe-container {
+  width: 768px;
+  height: 340px;
+  background-color: rgba(248, 249, 251, 1);
+}
+.cosmic-banner{
+  width: 768px;
+height: 1193px;
+padding: 48px 32px 48px 32px;
+gap: 32px;
+background-color: rgba(255, 255, 255, 1);
+}
+.responsive-img {
+  display: none;
+}
+.tablet {
+  display: block;
+}
+.box1 {
+  width: 704px;
+height: 503px;
+gap: 24px;
+border-radius: 5px 0px 0px 0px;
+}
+.box1 img {
+  width: 704px;
+height: 299px;
+border-radius: 10px 0px 0px 0px;
+}
+.box1 h3 {
+  width: 704px;
+  height: 60px;
+font-size: 22px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: -0.01em;
+text-align: left;
+color: rgba(39, 45, 55, 1);
+margin: 24px 0px 12px; 
+br {
+  display: none;
+} 
+}
+.responsive-h3 {
+  display: block; 
+}
+.new-h3{
+  display: none;
+}
+.box1 p {
+  width: 704px;
+  height: 72px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left; 
+  color: rgba(95, 109, 126, 1);
+  margin-bottom: 16px;
+  br {
+    display: none;
+  }  
+}
+.starr-mobile{
+  display: none;
+}
+.starr-tablet{
+  display: block;
+}
+.starr-desktop{
+  display: none;
+}
+.starrr-mobile{
+  display: none;
+}
+.starrr-tablet{
+  display: block;
+}
+.starrr-desktop{
+  display: none;
+}
+.star-mobile{
+  display: none;
+}
+.star-tablet{
+  display: block;
+}
+.star-desktop{
+  display: none;
+}
+.star_box img {
+  width: 188px;
+height: 166px;
+border-radius: 10px 0px 0px 0px;
+}
+.box2 img{
+  width: 188px;
+height: 118px;
+border-radius: 10px 0px 0px 0px;
+margin: 32px;
+position: absolute;
+}
+.box2 .star_box h3 {
+  width: 376px;
+height: 30px;
+font-size: 22px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: -0.01em;
+text-align: left;
+color: rgba(39, 45, 55, 1);
+}
+.box2 .star_box p {
+  width: 376px;
+height: 48px;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -0.10000000149011612px;
+text-align: left;
+}
+.star_box h3 {
+ margin-left: 277px;
+}
+.star_box p {
+  margin-left: 277px;
+}
+.star_box img {
+  margin-top: 5px;
+}
 }
 
 
@@ -2399,6 +2705,187 @@ gap: 64px;
       right: 30px;
     }
   }
+}
+.universe-container {
+  max-width: 1440px;
+  padding: 0 80px;
+}
+
+.galactic-logo, .starship-menu {
+  display: none;
+}
+
+.starlight-header {
+  display: flex;
+}
+
+.cosmic-navigation {
+  display: flex;
+  gap: 64px;
+  align-items: center;
+}
+
+.cosmic-navigation ul {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+
+.cosmic-navigation ul li {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.login-gateway {
+  display: flex;
+}
+
+.login-gateway a {
+  color: #437EF7;
+  padding: 12px 18px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.login-gateway a:last-child {
+  color: #FFF;
+  background-color: #437EF7;
+  border-radius: 6px;
+}
+
+.stellar-hero {
+  width: 640px;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+.cosmic-navigation ul li a {
+  color:rgba(39, 45, 55, 1);
+}
+.universe-container{
+  width: 1440px;
+height: 416px;
+padding: 0px 0px 2px 0px;
+background-color: rgba(248, 249, 251, 1);
+}
+.cosmic-banner{
+  width: 1440px;
+height: 546px;
+padding: 64px 0px 64px 0px;
+gap: 64px;
+background-color: rgba(255, 255, 255, 1);
+}
+.universe-title{
+  width: 588px;
+height: 418px;
+gap: 24px;
+border-radius: 5px 0px 0px 0px;
+}
+.responsive-img {
+  display: none;
+}
+.desktop {
+  display: block;
+}
+.box1{
+  width: 588px;
+height: 418px;
+gap: 24px;
+border-radius: 5px 0px 0px 0px;
+margin: 0px 40px 64px 112px ;
+}
+.box1 img {
+  width: 588px;
+  height: 210px;
+  border-radius: 10px 0px 0px 0px;
+}
+.box1 h3 {
+  width: 588px;
+height: 60px;
+font-size: 22px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: -0.01em;
+text-align: left;
+margin-top: 24px;
+color: rgba(39, 45, 55, 1);
+margin-bottom: 16px;
+}
+.new-h3 {
+  display: none; 
+}
+.box1 p {
+  width: 588px;
+  height: 72px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  margin-bottom: 16px;   
+  color: rgba(95, 109, 126, 1); 
+}
+.box2{
+  width: 588px;
+height: 418px;
+gap: 32px;
+display: grid;
+}
+.star_box{
+  width: 588px;
+height: 118px;
+gap: 24px;
+border-radius: 5px 0px 0px 0px;
+text-align: left;
+}
+.star-mobile{
+  display: none;
+}
+.star-tablet{
+  display: none;
+}
+.star-desktop{
+  display: block;
+}
+
+.box2 img{
+  width: 188px;
+height: 118px;
+border-radius: 10px 0px 0px 0px;
+margin: 32px;
+position: absolute;
+}
+.box2 .star_box h3 {
+  width: 376px;
+height: 30px;
+font-size: 22px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: -0.01em;
+text-align: left;
+color: rgba(39, 45, 55, 1);
+}
+.box2 .star_box p {
+  width: 376px;
+height: 48px;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -0.10000000149011612px;
+text-align: left;
+}
+.star_box img {
+  margin-top: -488px;
+  margin-left: 696px;
+}
+.star_box h3 {
+  margin-top: -496px;
+  margin-left: 923px;
+}
+.star_box p {
+  margin-top: 7px;
+  margin-left: 925px;
 }
 }
 
