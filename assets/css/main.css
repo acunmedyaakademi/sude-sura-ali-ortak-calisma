@@ -1776,13 +1776,13 @@ gap: 40px;
   margin-bottom: 30px;
 }
 /* scroll çıkmaması için kaldırıldı */
-.header_blog_container {
-  /* width: 375px;
+/* .header_blog_container {
+  width: 375px;
   height: 985px;
   padding: 32px 16px 32px 16px;
-  gap: 40px; */
-  /* width: 100%; */
-}
+  gap: 40px;
+  width: 100%; 
+} */
 
 .blog__in img {
   width: 48px;
