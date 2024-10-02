@@ -329,7 +329,7 @@ header {
 		background-color: var(--icon-bg);
 		border-radius: 100%;
 		i {
-			font-size: 32px;
+			font-size: 24px;
 			color: var(--blue);
 		}
 		
