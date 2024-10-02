@@ -1133,8 +1133,7 @@ header {
 
 .faq__table li {
   border-bottom: 1px solid var(--light-gray-border);
-  padding: 16px 32px;
-  height: 80px;
+  padding: 28px 32px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1144,9 +1143,22 @@ header {
   display: none;
 }
 
-.faq__table__item--first {
+.faq__table li:first-child {
   padding: 20px 32px;
 }
+
+.faq__table details p {
+  width: 70%;
+  margin-top: 16px;
+}
+.faq__table details summary{
+  list-style: none;
+}
+
+.faq__table__item--first .faq__table__item--first__text{
+  width: 100%;
+  margin-top: 0;
+ }
 
 .faq__table h6 {
   font-size: 16px;
@@ -1179,7 +1191,7 @@ header {
   color: var(--gray);
 }
 
-.faq__table__right span {
+.faq__table__span span {
   display: block;
   background-color: var(--icon-bg);
   color: var(--blue);
@@ -1189,6 +1201,23 @@ header {
   font-weight: 500;
   line-height: 20px;
   letter-spacing: -0.10000000149011612px;  
+  padding: 4px 12px;
+}
+
+.faq__table li {
+  position: relative;
+}
+
+.faq__table__right {
+  position: absolute;
+  top: 28px;
+  right: 32px;
+}
+
+.faq__table__span {
+  position: absolute;
+  top: 32px;
+  right: 32px;
 }
 
 .sign {
@@ -1836,18 +1865,6 @@ header {
 }
 /* sude end */
 /* sude start */
-.faq--help .faq__table {
-  position: relative;
-}
-.faq--help .faq__table .faq__table__item--first {
-  height: 92px;
-}
-.faq--help .faq__table__right span{
-  position: absolute;
-  top: 32px;
-  right: 32px;
-  padding: 4px 12px;
-}
 .integrations__grid-container {
   display: grid;
   grid-template-columns: 1fr;
@@ -3010,9 +3027,6 @@ gap: 40px;
     margin-top: 64px;
     padding-inline: 32px;
   }
-  .faq__table__item--first {
-   height: 96px;
-  }
   .faq__table__right i {
     font-size: 12px;
     margin-left: 48px;
@@ -3245,9 +3259,6 @@ gap: 40px;
   }
   /* sude end */
   /* sude start */
-  .faq--help .faq__table__right span{
-    right: 64px;
-  }
   .faq--help .faq__table{
     margin-top: 0;
   }
