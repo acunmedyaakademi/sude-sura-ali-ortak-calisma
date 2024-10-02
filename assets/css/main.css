@@ -1399,6 +1399,9 @@ header {
 .transaction-img-desktop{
   display: none;
 }
+
+/* CAREERS START */
+
 .team-filter{
   background-color: var(--bg-gray);
 }
@@ -1608,7 +1611,15 @@ select {
   text-align: right;  
   color: var(--text-color);
 }
-
+/* CAREERS END */
+.sign_industry{
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px; 
+  color: var(--white);
+  text-align: center; 
+}
 
 /* ALİ END */
 @media screen and (max-width: 767.98px) {
