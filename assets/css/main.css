@@ -20,7 +20,7 @@
   --footer-input-bg: #2C3444;
   --footer-input-border: #2E3545;
   --grid-bg-blue: #3971E7;
-  --yellow: #FFAE43,
+  --yellow: #FFAE43;
   --light-blue-text: #B1CCFB;
 }
 
@@ -95,7 +95,7 @@ section {
 header {
 	width: 100%;
 	border-bottom: 1px solid var(--light-gray-border);
-	background-color: var(--dark-white);
+	background-color: var(--bg-gray);
 	.container {
 		display: flex;
 		align-items: center;
@@ -212,7 +212,7 @@ header {
 }
 
 .showcase {
-	background-color: var(--dark-white);
+	background-color: var(--bg-gray);
 	padding: 24px 0 0;
 	h1 {
 		font-size: 36px;
@@ -1402,6 +1402,7 @@ header {
   letter-spacing: -0.10000000149011612px;
   margin-bottom: 16px;
   border-bottom: 1px solid rgba(46, 53, 69, 1);
+  text-align: left;
 }
 
 .item {
@@ -1687,7 +1688,6 @@ header {
   color: var(--white);
 }
 /* sude end */
-
 /* sude start */
 .careers__hero__container {
   background: url(../images/careersbgmobile.png) bottom, url(../images/careersbgmobile2.png) bottom;
@@ -1833,8 +1833,102 @@ header {
   color: var(--text-color);
   margin-bottom: 16px;
 }
+/* sude end */
+/* sude start */
+.faq--help .faq__table {
+  position: relative;
+}
+.faq--help .faq__table .faq__table__item--first {
+  height: 92px;
+}
+.faq--help .faq__table__right span{
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  padding: 4px 12px;
+}
+.integrations__grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-top: 32px;
+}
 
+.integrations__grid-item {
+  border: 1px solid var(--light-gray-border);
+  border-radius: 5px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
 
+.integrations__grid-item span {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--blue);
+  border-radius: 100%;
+  margin-bottom: 8px;
+}
+
+.integrations__grid-item span i {
+  font-size: 26px;
+  color: var(--white);
+}
+
+.integrations__grid-item h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.integrations__grid-item p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: center;
+  color: var(--gray);
+}
+/* sude end */
+/* sude start */
+.contact__hero {
+  background-color: var(--bg-gray);
+  padding-bottom: 40px;
+}
+
+.contact__hero .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.contact__hero p {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.10000000149011612px;
+  color: var(--blue);
+}
+
+.contact__hero h1 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: var(--text-color);
+}
 /* sude end */
 
 @media screen and (max-width: 767.98px) {
@@ -2336,6 +2430,43 @@ header {
     display: none;
   }
   /* sude end */
+  /* sude start */
+.integrations__grid-container {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+.integrations__grid-item--message {
+  display: none;
+}
+.integrations__grid-item {
+  padding: 32px;
+  gap: 16px;
+}
+.integrations__grid-item span {
+  margin-bottom: 0;
+}
+.integrations__grid-item h3 {
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: -0.01em;
+}
+/* sude end */
+/* sude start */
+.contact__hero {
+  padding-bottom: 88px;
+  padding-top: 48px;
+}
+.contact__hero .container {
+  gap: 0;
+}
+.contact__hero h1 {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: -0.01em;
+  padding-inline: 50px;
+}
+/* sude end */
 }
 
 
@@ -2759,6 +2890,43 @@ header {
     display: block;
   }
   /* sude end */
+  /* sude start */
+.faq--help .faq__table__right span{
+  right: 64px;
+}
+.faq--help .faq__table{
+  margin-top: 0;
+}
+.faq--help:first-child {
+  padding-bottom: 0;
+}
+ .integrations__grid-container {
+  grid-template-columns: repeat(3, 1fr);
+  padding-inline: 32px;
+  margin-top: 64px;
+}
+.integrations__grid-item--message {
+  display: flex;
+}
+.integrations__grid-item h3 {
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: -0.01em;
+}
+/* sude end */
+/* sude start */
+.contact__hero {
+  padding-bottom: 92px;
+  padding-top: 80px;
+}
+.contact__hero .container {
+  gap: 16px;
+}
+.contact__hero h1 {
+  width: 620px;
+  padding: 0;
+}
+/* sude end */
 }
 
 
