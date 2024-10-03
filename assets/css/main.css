@@ -809,7 +809,7 @@ header {
 
 .socials {
   display: flex;
-  width: 168px;
+  width: 100%;
   justify-content: space-between;
   a {
     color: var(--text-color);
@@ -2530,7 +2530,20 @@ button:hover {
   background-color: #45a049;
 }
 /* sura end */
+/* ali start */
 
+.dark-bg{
+  background-color: var(--bg-black);
+}
+.title-dark h2{
+  color: var(--dark-white);
+}
+.title-dark p{
+  color: var(--light-gray);
+}
+
+/* ali end */
+/* contact end */
 @media screen and (max-width: 767.98px) {
   .btn:not(.btn--inline) {
 		width: 100%;
@@ -2727,6 +2740,9 @@ button:hover {
 			width: 230px;
 		}
 	}
+  .socials {
+    width: 168px;
+  }
 	.socials--mobile-desktop {
 		display: none;
 	}
