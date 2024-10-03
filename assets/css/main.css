@@ -2501,7 +2501,6 @@ gap: 40px;
 }
 
 
-
 input[type="text"],
 input[type="email"],
 input[type="tel"],
@@ -2530,6 +2529,7 @@ textarea {
 button:hover {
   background-color: #45a049;
 }
+/* sura end */
 
 @media screen and (max-width: 767.98px) {
   .btn:not(.btn--inline) {
@@ -3257,6 +3257,7 @@ button:hover {
       display: grid;
       grid-template-columns: 1fr 1fr;
     }
+    /* sura end */
   }
     
 
@@ -3908,6 +3909,7 @@ button:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+  /* sura end */
 }
 
 
