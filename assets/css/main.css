@@ -2486,7 +2486,50 @@ gap: 40px;
   color: var(--text-color);
 }
 /* sude end */
+/* contact başlangıç */
+/* sura start */
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr; 
+  gap: 10px; 
+  margin-bottom: 15px; 
+}
 
+.form-group {
+  display: flex;
+  flex-direction: column; 
+}
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.form-group textarea {
+  padding-bottom: 60px;
+}
+ button {
+  background-color: #2B63D9;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 16px;
+  width: 343px;
+  height: 46px;
+  padding: 12px 18px 12px 18px;
+  gap: 6px;
+  border-radius: 6px;
+}
+button:hover {
+  background-color: #45a049;
+}
 
 @media screen and (max-width: 767.98px) {
   .btn:not(.btn--inline) {
@@ -3208,7 +3251,13 @@ gap: 40px;
     padding-inline: 50px;
     }
     /* sude end */
-}
+    /* contact başlangıç */
+    /* sura start */
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
     
 
 
@@ -3853,7 +3902,12 @@ gap: 40px;
     padding: 0;
   }
   /* sude end */
+  /* contact başlangıç */
+  /* sura start */
+  .form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
-
 
 
