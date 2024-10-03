@@ -210,7 +210,7 @@ header {
 	box-shadow: 0px 2px 7px 0px var(--text-color);
 	padding: 20px;
 }
-
+/* index başlangıç */
 .showcase {
 	background-color: var(--bg-gray);
 	padding: 24px 0 0;
@@ -834,7 +834,8 @@ header {
     padding-top: 16px;
 	}
 }
-
+/* index bitiş */
+/* about başlangıç */
 .workflow {
   width: 100%;
   padding: 0;
@@ -1332,6 +1333,8 @@ header {
     margin-bottom: 16px;
   }
 }
+/* about bitiş */
+/* pricing başlangıç */
 /* sura start */
 .header__black{
   background-color: rgba(21, 27, 40, 1);
@@ -1717,6 +1720,8 @@ header {
   color: var(--white);
 }
 /* sude end */
+/* pricing bitiş */
+/* careers başlangıç */
 /* sude start */
 .careers__hero__container {
   background: url(../images/careersbgmobile.png) bottom, url(../images/careersbgmobile2.png) bottom;
@@ -2190,6 +2195,50 @@ gap: 40px;
 	padding-right: 16px;
 }
 /* sura end */
+/* careers bitiş */
+/* blog başlangıç */
+/* sura start */
+.blog-card--blog-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+  margin-top: 24px;
+}
+
+.blog-card--blog {
+  .blog-card--blog--desktop {
+    display: none;
+  }
+  .blog-card--blog--desktop-img {
+    display: none;
+  }
+  .blog-card--blog--tablet {
+    display: none;
+  }
+  img {
+    width: 100%;  
+  }
+  h5 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.02em;    
+    color: var(--text-color);
+    margin-top: 24px;
+  }
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.10000000149011612px;    
+    color: var(--gray);
+    margin-top: 4px;
+    &:last-child {
+      margin-top: 16px;
+    }
+  }
+}
+/* sura end */
 /* sude start */
 
 .blog-subscribe {
@@ -2288,6 +2337,8 @@ gap: 40px;
   text-align: center; 
 }
 /* ali end */
+/* blog bitiş */
+/* support başlangıç */
 /* ali START */
 .header--support{
   padding-block: 16px;
@@ -2402,6 +2453,8 @@ gap: 40px;
   color: var(--gray);
 }
 /* sude end */
+/* support bitiş */
+/* contact başlangıç */
 /* sude start */
 .contact__hero {
   background-color: var(--bg-gray);
@@ -2457,6 +2510,7 @@ gap: 40px;
     letter-spacing: -0.02em;
     text-align: center;
   }
+  /* index başlangıç */
 	.showcase {
 		h1 {
 			font-size: 52px;
@@ -2652,6 +2706,8 @@ gap: 40px;
 			padding-top: 16px;
 		}
 	}
+  /* index bitiş */
+  /* about başlangıç */
 	.workflow {
     background: url(../images/workflowimgtablet.png) top no-repeat;
     background-color: var(--bg-gray);
@@ -2752,6 +2808,8 @@ gap: 40px;
   .footer--about__copyright {
     padding-top: 32px;
   }
+  /* about bitiş */
+  /* pricing başlangıç */
   /* sura start */
     .payment-type {
       width: 384px;
@@ -2907,6 +2965,8 @@ gap: 40px;
       font-weight: 500;
     }
     /* sude end */
+    /* pricing bitiş */
+    /* careers başlangıç */
     /* sude start */
     .careers__hero__container {
       background: url(../images/careersbgtablet.png) bottom, url(../images/careersbgtablet2.png) bottom;
@@ -2963,16 +3023,12 @@ gap: 40px;
     .footer-topp {
       width: 309px;
     }
-  
-  
     .header_blog_container .containers {
       width: 768px;
     height: 843px;
     padding: 40px 32px 40px 32px;
     gap: 40px;
     }
-  
-  
     .blogg__cardd {
       grid-template-columns: auto auto;
       gap: 32px;
@@ -3005,6 +3061,55 @@ gap: 40px;
       border-radius: 5px 0px 0px 0px;
       margin-left: 22px;
     } */
+    /* sura end */
+    /* careers bitiş */
+    /* blog başlangıç */
+    /* sura start */
+    .blog-card--blog-container {
+      gap: 32px;
+      margin-top: 32px;
+    }
+    .blog-card--blog {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      .blog-card--blog--mobile {
+        display: none;
+      }
+      .blog-card--blog--tablet {
+        display: block;
+      }
+      .blog-card--blog--desktop {
+        display: block;
+      }
+      img {
+        width: 188px;
+        height: 118px;  
+      }
+      h5 {
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: -0.01em;     
+        margin-top: 0;
+      }
+    }
+    .first {
+      flex-direction: column;
+      gap: 0;
+      align-items: start;
+      img {
+        width: 100%;
+        height: 163px;
+        margin-bottom: 24px;
+      }
+      p {
+        margin-top: 12px;
+        &:last-child {
+          margin-top: 16px;
+        }
+      }
+    }
     /* sura end */
     /* sude start */
     .blog-subscribe .container {
@@ -3050,6 +3155,8 @@ gap: 40px;
       display: none;
     }
     /* sude end */
+    /* blog bitiş */
+    /* support başlangıç */
     /* ali START */
 
     .account-assistant{
@@ -3063,43 +3170,46 @@ gap: 40px;
 
     /* ali END */
     /* sude start */
-  .integrations__grid-container {
+    .integrations__grid-container {
     grid-template-columns: repeat(2, 1fr);
     gap: 32px;
-  }
-  .integrations__grid-item--message {
+    }
+    .integrations__grid-item--message {
     display: none;
-  }
-  .integrations__grid-item {
+    }
+    .integrations__grid-item {
     padding: 32px;
     gap: 16px;
-  }
-  .integrations__grid-item span {
+    }
+    .integrations__grid-item span {
     margin-bottom: 0;
-  }
-  .integrations__grid-item h3 {
+    }
+    .integrations__grid-item h3 {
     font-size: 22px;
     line-height: 30px;
     letter-spacing: -0.01em;
-  }
-  /* sude end */
-  /* sude start */
-  .contact__hero {
+    }
+    /* sude end */
+    /* support bitiş */
+    /* contact başlangıç */
+    /* sude start */
+    .contact__hero {
     padding-bottom: 88px;
     padding-top: 48px;
-  }
-  .contact__hero .container {
+    }
+    .contact__hero .container {
     gap: 0;
-  }
-  .contact__hero h1 {
+    }
+    .contact__hero h1 {
     font-size: 52px;
     font-weight: 700;
     line-height: 60px;
     letter-spacing: -0.01em;
     padding-inline: 50px;
-  }
-  /* sude end */
+    }
+    /* sude end */
 }
+    
 
 
 @media screen and (min-width: 1280px) {
@@ -3134,7 +3244,7 @@ gap: 40px;
 		width: 800px;
 		margin: 0 auto;
 	}
-
+  /* index başlangıç */
 	.showcase {
 		br {
 			display: block;
@@ -3289,6 +3399,8 @@ gap: 40px;
 	.footer__copyright {
 		justify-content: center;
 	}
+  /* index bitiş */
+  /* about başlangıç */
 	.workflow {
     background: url(../images/workflowimgdesktop.png) no-repeat;
     background-position: right bottom;
@@ -3377,6 +3489,8 @@ gap: 40px;
   .footer--about__contact {
     width: 309px;
   }
+  /* about bitiş */
+  /* pricing başlangıç */
   /* sura start */
     .payment-packs {
       padding: 40px 0;
@@ -3436,62 +3550,7 @@ gap: 40px;
   .transaction-img-desktop{
     display: flex;
   }
-  .filter-form{
-    padding-inline: 32px;
-  }
-  /* SUPPORT START */
-  
-  .header--support{
-    padding-block: 20px;
-  }
-  .navbar--menu{
-    padding-inline: 32px;
-  }
-  .bars--mobile{
-    display: none;
-  }
-  .navbar--menu ul{
-    display: flex;
-    gap: 32px;
-  }
-  .navbar--menu ul>li>a{
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 22px;
-    text-align: left;
-    color: var(--text-color);
-  }
-  .navbar--menu ul>li>a>i{
-    margin-left: 12px;
-  }
-  .sign--login--btn{
-    display: flex;
-    gap: 24px;
-    align-items: center;
-  }
-  .sign--login--btn a{
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 22px;
-    color: var(--blue);    
-  }
-  .sign--login--btn a:last-child{
-    color: var(--white);
-    padding: 12px 18px 12px 18px;
-    border-radius: 6px;
-    text-align: center;
-    background-color: var(--blue);
-    box-shadow: 0px 1px 2px 0px #1018280A;
-  }
-  .page-information{
-    padding-inline: 32px;
-  }
-  .assistant-profile{
-    padding-inline: 32px;
-  }
-
-  /* SUPPORT END */
-  /* ALİ END */
+  /* ali end */
   /* sude start */
   .customer-reviews__grid-container {
     margin-top: 64px;
@@ -3524,6 +3583,8 @@ gap: 40px;
     font-weight: 600;
   }
   /* sude end */
+  /* pricing bitiş */
+  /* careers başlangıç */
   /* sude start */
   .careers__hero__container {
     background: url(../images/careersbgdesktop.png) bottom, url(../images/careersbgdesktop2.png) bottom;
@@ -3547,6 +3608,11 @@ gap: 40px;
     gap: 140px;
   }
   /* sude end */
+  /* ali start */
+  .filter-form{
+    padding-inline: 32px;
+  }
+  /* ali end */
   /* sura start */
   .blogg__cardd{
     flex-direction: row;
@@ -3621,6 +3687,57 @@ gap: 40px;
     }
   }
   /* sura end */
+  /* careers bitiş */
+  /* blog başlangıç */
+  /* sura start */
+  .blog-card--blog-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 32px 40px;
+    margin-top: 64px;
+    justify-content: center;
+    padding-inline: 32px;
+  }
+  .blog-card--blog {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    .blog-card--blog--tablet {
+      display: none;
+    }
+    .blog-card--blog--desktop {
+      display: block;
+    }
+    .blog-card--blog--desktop-img {
+      display: block;
+    }
+    img {
+      width: 188px;
+      height: 118px;  
+    }
+    h5 {
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 30px;
+      letter-spacing: -0.01em;     
+      margin-top: 0;
+    }
+  }
+  .first {
+    grid-row: span 3;
+    flex-direction: column;
+    gap: 0;
+    align-items: start;
+    img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 24px;
+    }
+    p {
+      margin-top: 16px;
+    }
+  }
+  /* sura end */
   /* sude start */
   .blog-subscribe .container {
     flex-direction: row;
@@ -3648,6 +3765,58 @@ gap: 40px;
     display: block;
   }
   /* sude end */
+  /* blog bitiş */
+  /* support başlangıç */
+  /* ali start */
+  .header--support{
+    padding-block: 20px;
+  }
+  .navbar--menu{
+    padding-inline: 32px;
+  }
+  .bars--mobile{
+    display: none;
+  }
+  .navbar--menu ul{
+    display: flex;
+    gap: 32px;
+  }
+  .navbar--menu ul>li>a{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+    color: var(--text-color);
+  }
+  .navbar--menu ul>li>a>i{
+    margin-left: 12px;
+  }
+  .sign--login--btn{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+  }
+  .sign--login--btn a{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    color: var(--blue);    
+  }
+  .sign--login--btn a:last-child{
+    color: var(--white);
+    padding: 12px 18px 12px 18px;
+    border-radius: 6px;
+    text-align: center;
+    background-color: var(--blue);
+    box-shadow: 0px 1px 2px 0px #1018280A;
+  }
+  .page-information{
+    padding-inline: 32px;
+  }
+  .assistant-profile{
+    padding-inline: 32px;
+  }
+  /* ali end */
   /* sude start */
   .faq--help .faq__table{
     margin-top: 0;
@@ -3669,6 +3838,8 @@ gap: 40px;
     letter-spacing: -0.01em;
   }
   /* sude end */
+  /* support bitiş */
+  /* contact başlangıç */
   /* sude start */
   .contact__hero {
     padding-bottom: 92px;
