@@ -3267,13 +3267,13 @@ button:hover {
     padding-inline: 50px;
     }
     /* sude end */
-    /* contact başlangıç */
     /* sura start */
     .form-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
     }
     /* sura end */
+    /* contact bitiş */
   }
     
 
@@ -3919,13 +3919,13 @@ button:hover {
     padding: 0;
   }
   /* sude end */
-  /* contact başlangıç */
   /* sura start */
   .form-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
   /* sura end */
+  /* contact bitiş */
 }
 
 
